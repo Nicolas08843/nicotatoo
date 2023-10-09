@@ -1,0 +1,137 @@
+incorporo DOM con modelo de caja/
+* {
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-image:url(imagen/OIG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed 
+    
+}
+
+
+#strong,strong{
+       color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(17, 110, 98);
+        font-size: 50px;
+        font-family:'Times New Roman', Times, serif;
+        margin-top: 100px
+        
+
+    
+}
+
+a{
+      
+    display: inline-flexbox;
+    border-radius: 60px;
+    font-size: 50px;
+    margin: 20px;
+    text-decoration:none;
+    color: aliceblue;
+    padding-inline: 120px;
+    font-style:oblique;
+    padding-bottom: 20px;
+    margin-bottom:  200px;;
+    padding-top:20px 
+    
+    }
+a:hover{
+
+
+    background-color:transparent;
+    border:4px dashed rgb(88, 193, 190);
+    color: rgb(247, 247, 247);
+
+}
+
+
+.buttons a{
+    margin-top:80px;
+    padding-bottom: 5px;
+    padding-inline: 20px;
+    font-size: 25px;
+   display: inline-flex;
+   background: rgb(5, 80, 76);
+   float: right;
+   
+    
+    
+
+}
+
+
+    
+
+h1{
+       
+    color: rgb(255, 255, 255);
+        display: flex;
+        font-family:serif;
+        justify-content: center;
+        background-color: rgb(18, 139, 139);
+        font-style: italic;
+        
+        font-size: 200px;
+        
+       
+       
+        
+       
+        
+        
+        
+}
+
+h2{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: rgb(246, 250, 249);
+        
+        
+}
+h3{
+    text-shadow: aqua;
+    color: rgb(255, 255, 255);
+        display: flex;
+        font-family:serif;
+        justify-content: center;
+        font-size: 80px;
+
+}
+
+p{
+       color: aliceblue;
+       font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+
+}
+#imagen,img{
+display: flex;
+padding-left: 28%;
+width: 1500px;
+
+
+
+
+}
+
+
+
+
